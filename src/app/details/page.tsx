@@ -13,7 +13,7 @@ export default function Details() {
     const suggestions = mockSuggestions;
     
     return (
-        <main className="min-h-screen bg-[#b99682]/30">
+        <main className="min-h-screen bg-[#b99682]/30 overflow-hidden">
             <NavBar />
             <ImageCarousel images={business.gallery} />
 
